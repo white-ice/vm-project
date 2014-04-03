@@ -1,0 +1,69 @@
+.header {
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, rgb(67, 131, 173)),
+		color-stop(1, rgb(31, 104, 153))
+	);
+	background-image: -o-linear-gradient(bottom, rgb(67, 131, 173) 0%, rgb(31, 104, 153) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(67, 131, 173) 0%, rgb(31, 104, 153) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(67, 131, 173) 0%, rgb(31, 104, 153) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(67, 131, 173) 0%, rgb(31, 104, 153) 100%);
+	background-image: linear-gradient(to bottom, rgb(67, 131, 173) 0%, rgb(31, 104, 153) 100%);
+	height: 45px;
+	border: 0 none;
+	padding: 0;
+}
+	.logo-header {
+		background: url("../img/vm-logo.jpg") no-repeat 12px 10px;
+		height: 40px;
+		width: 213px;
+	}
+	.header-nav {
+		border-left: 1px solid #2c668c;
+		border-right: 1px solid #6599bb;
+		height: 45px;
+		top: -2px;
+	}
+		.header-nav ul {
+			margin: 0;
+			padding: 0;
+		}
+			.header-nav li {
+				color: #fff;
+				cursor: pointer;
+				display: inline-block;
+				border-left: 1px solid #6599bb;
+				border-right: 1px solid #2c668c;
+				float: left;
+				font-size: 18px;
+				font-weight: bold;
+				text-shadow: 1px 1px 1px #1B4C71;
+				list-style: none;
+				padding: 12px 17px;
+			}
+			.header-nav li.action {
+				background-color: #d3dee3;
+				border: 0 none;
+				color: #28709f;
+				text-shadow: 1px 1px 1px #fff;
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
